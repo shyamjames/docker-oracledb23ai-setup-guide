@@ -20,7 +20,7 @@ Next, execute the command below to start the database container.
 
 ```bash
 docker run --name oracle-23ai \
-  -v /home/shyam/Documents/PLSQL:/scripts \
+  -v /your/local/directory/path:/scripts \
   -p 1521:1521 -p 5500:5500 \
   -e ORACLE_PWD=password \
   -d container-registry.oracle.com/database/free:latest
