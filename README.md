@@ -86,4 +86,3 @@ To gracefully stop the running container:
 ```bash
 docker stop oracle-23ai
 ```
-```
